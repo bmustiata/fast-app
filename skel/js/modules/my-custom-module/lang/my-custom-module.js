@@ -1,0 +1,1 @@
+{"GOOD_DAY" : "Good day!" }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{APP_TITLE}</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+        <script type="text/javascript" src="js/yui-config.js"></script>
+        <script type="text/javascript" src="http://yui.yahooapis.com/{YUI_VERSION}/build/yui/yui-min.js"></script>
+    </head>
+
+    <body>
+        <h1>{APP_TITLE}</h1>
+
+        <span id="loadingSpan">The YUI code is loading.</span>
+
+        <script type="text/javascript">
+            YUI().use("node", "my-custom-module", function(Y) {
+                Y.one("#loadingSpan").set("innerText", "The YUI code was loaded.");
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+{"GOOD_DAY" : "Guten Tag!" }

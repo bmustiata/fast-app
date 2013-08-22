@@ -1,0 +1,23 @@
+{
+    "name": "fast-app",
+    "version": "0.1.0",
+    "author": "Bogdan Mustiata <bogdan.mustiata@gmail.com>",
+    "description": "An application that allows fast prototyping of YUI3 applications.",
+    "main": "lib/fastui",
+    "bin" : {
+        "fast-app" : "./bin/fast-app.js"
+    },
+    "keywords": [
+        "yui",
+        "yui3",
+        "fast-app"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bmustiata/fast-app.git"
+    },
+    "dependencies": {
+        "once-many": "0.1.x"
+    }
+}
