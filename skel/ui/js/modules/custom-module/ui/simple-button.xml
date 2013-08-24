@@ -1,0 +1,9 @@
+<div xmlns:ui="fastui" xmlns:Y="Y">
+    <label for="name">{NAME}:</label>
+    <input type="text" ui:field="nameText" id="name"/>
+    <br/>
+    <label for="email">{EMAIL}:</label>
+    <input type="text" ui:field="emailText" id="email"/>
+    <br/>
+    <Y:Button label="{SUBMIT}" ui:field="okButton"/>
+</div>

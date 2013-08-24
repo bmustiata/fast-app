@@ -1,0 +1,14 @@
+Using fast-app:
+
+fast-app application [-y yuiversion] applicationName
+    Create an application with the given name. Optional arguments:
+        -y Specify a different yui version instead of the latest one.
+
+fast-app module [-u] [-i] [-s] moduleName
+    Create a module with the given name. Optional arguments:
+        -u Use fast-ui.
+        -i Use INTL.
+        -s Use skin support.
+
+fast-app serve
+    Serve the current application in an HTTP server.

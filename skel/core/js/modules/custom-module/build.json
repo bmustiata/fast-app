@@ -1,0 +1,11 @@
+{
+    "name": "my-custom-module",
+    "builds": {
+        "my-custom-module": {
+            "jsfiles": [{JS_FILES}],
+            "config": {
+                "requires": [{MODULE_DEPENDENCIES}]{LANG_SETTINGS}
+            }
+        }
+    }
+}
